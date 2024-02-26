@@ -1,21 +1,16 @@
-<!-- ## Installation
+## Installation
 
 ```bash
-$ yarn install
+$ npm install
 ```
 
 ## Running the app
 
-```bash
+````bash
 # development
-$ yarn run start
+$ npm run start
 
-# watch mode
-$ yarn run start:dev
 
-# production mode
-$ yarn run start:prod
-``` -->
 
 ## Generate new module with nest/cli
 
@@ -25,7 +20,7 @@ $ yarn run start:prod
 
 nb : you can type "nest g --help" to look what can you generate through nest/cli
 open documentation for more info
-```
+````
 
 ## Support
 

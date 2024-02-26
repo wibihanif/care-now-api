@@ -8,15 +8,15 @@ export class PatientController {
 
   @Get('/')
   async getPatients() {
-    const test = await this.patientService.getPatients();
+    const patients = await this.patientService.getPatients();
 
-    return test;
+    return patients;
   }
 
   @Post('/')
   async registerPatient(@Body() patientData: RegisterPatientDTO) {
-    const test = await this.patientService.registerPatient(patientData);
+    await this.patientService.registerPatient(patientData);
 
-    return test;
+    return 'created';
   }
 }
